@@ -1,17 +1,24 @@
 {
-  "name": "sdieunidou/hytale-api-js",
+  "name": "hytale-api-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js client for the Hytale API.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/example.js",
     "test": "node --test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sdieunidou/hytale-api-js.git"
   },
-  "keywords": [],
+  "keywords": [
+    "hytale",
+    "api",
+    "client"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
